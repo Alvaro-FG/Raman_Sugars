@@ -73,5 +73,5 @@ Finally, two .csv files containing all the extracted information are provided 'S
 
 ## Contact
 For any questions regarding the dataset or its use, please reach out to: 
-*Alvaro Fernandez Galiana (alvaro.fernandezgaliana@gmail.com)
+* Alvaro Fernandez Galiana (alvaro.fernandezgaliana@gmail.com)
 
