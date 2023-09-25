@@ -40,14 +40,14 @@ The different sugar mixtures were prepared in standard 96-well plates. In partic
 * 375 ul of total volume, filled with [Invitrogen™ -- UltraPure™ DNase/RNase-Free Distilled Water](https://www.thermofisher.com/order/catalog/product/10977049?SID=srch-srp-10977049)
 * 5 extra wells of *pure* solutions (i.e., 375 ul of water, Sucrose, Fructose, Maltose, and Glucose, respectively)
 
-In total, this resulted in a total of 245 wells, which were distributed in three standard 96-well plates. The exact distribution of each well can be found in the 'Sugar_Concentration' files, were each well is identified as {RowLetter}{ColumnNumber}_{PlateNumber} (e.g., D3_2 corresponds to the D3 well of the second well plate).
+In total, this resulted in a total of 245 wells, which were distributed in three standard 96-well plates. The exact distribution of each well can be found in the 'Sugar_Concentration' files, where each well is identified as {RowLetter}{ColumnNumber}_{PlateNumber} (e.g., D3_2 corresponds to the D3 well of the second well plate).
 
 After the mixtures were prepared in the well plates, all wells were mixed using standard 200ul pipettes to ensure a proper mixture.
 
 Mixtures were prepared by Dr. Alvaro Fernandez Galiana and George Papadopoulos.
 
 ### Measurement of Raman spectra
-All the spectra were acquired in a custom Raman microspectroscopy platform particularly designed for high-throughput analysis known as [B-Raman](b-raman.com). The instrument was calibrated using a Hg lamp before the data was collected, and the following experimental conditions were applied:
+All the spectra were acquired in a custom Raman microspectroscopy platform particularly designed for high-throughput analysis known as [B-Raman](b-raman.com). The instrument was calibrated using an Argon wavelength calibration source ([AR-2 -- Ocean Insight](https://www.oceaninsight.com/products/light-sources/calibration-sources/ar-2/?qty=1)) before the data was collected, and the following experimental conditions applied:
 * Excitation wavelength: 785 nm
 * Excitation power: 36.3 mW
 * Objective: [Leica N PLAN 10x/0.25](https://www.leica-microsystems.com/objectivefinder/objective/506405/)
