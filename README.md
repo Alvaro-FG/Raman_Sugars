@@ -69,5 +69,9 @@ Note that no pre-processing has been performed such that the user can decide wha
 
 An example Python notebook is provided to extract the information from each file.
 
-Finally, two .csv files containing all the extracted information are provided 'Sugar_Concentration_Test.csv' and 'Sugar_Concentration_Test_Fast.csv'. In these files, the wavenumber is provided in the first column ('cm-1'), and the spectra for each measurement is provided in the column with the name corresponding to the filename (following the nomenclature previously described).
+Finally, two .csv files containing all the extracted information are provided 'Sugar_Concentration_Test_ALL_spectra.csv' and 'Sugar_Concentration_Test_Fast_ALL_spectra.csv'. In these files, the wavenumber is provided in the first column ('Wavenumber [cm-1]'), and the spectra for each measurement are provided in the column with the name corresponding to the filename (following the nomenclature previously described). The corresponding metadata are provided in two other .csv files named 'Sugar_Concentration_Test_ALL_metadata.csv' and 'Sugar_Concentration_Test_Fast_ALL_metadata.csv'
+
+## Contact
+For any questions regarding the dataset or its use, please reach out to: 
+*Alvaro Fernandez Galiana (alvaro.fernandezgaliana@gmail.com)
 
