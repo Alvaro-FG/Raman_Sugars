@@ -4,6 +4,22 @@ Dataset of Raman spectra collected from a set of sugar mixtures
 ## Motivation
 The goal of this dataset is to serve as a benchmark dataset for the development of new spectral analysis techniques. 
 
+## Data Structure
+The data is separated into two folders 'Sugar_Concentration_Test' and 'Sugar_Concentration_Test_Fast' for the high and low integrations times, respectively (see Materials and Methods). Each measurement is in an individual .csv file with five columns:
+* Pixel: Corresponding to the pixel in the
+* wl: Wavelength, converted from the pixel with the calibration made in the spectrometer.
+* cm-1: Wavenumber, converted from the wavelength and the excitation (785m).
+* Intensity: Intensity of the Raman scattering signal
+* Metadata: Contains metadata about the measurement, including time, excitation power, etc.
+
+The information about the well plate and repeat and round are provided in the name of the file, which is structured as: 'Sugar_Concentration_Test{_Fast}_1_{WellCode}_{Plate#}_RD{Round#}_M1_R{Repetition#}' (e.g., Sugar_Concentration_Test_1_D3_2_RD2_M1_R3 corresponds to the third repetition measurement of the second round of the measurement of the D3 well of the second plate).
+
+Note that no pre-processing has been performed such that the user can decide what is best for the analysis. 
+
+An [example Python notebook]{https://colab.research.google.com/drive/1u5U2aYW_5c2b5Tp3Jt_t7rXN9s5IiT9A?usp=sharing} is provided to extract the information from each file.
+
+Finally, two .csv files containing all the extracted information are provided 'Sugar_Concentration_Test_ALL_spectra.csv' and 'Sugar_Concentration_Test_Fast_ALL_spectra.csv'. In these files, the wavenumber is provided in the first column ('Wavenumber [cm-1]'), and the spectra for each measurement are provided in the column with the name corresponding to the filename (following the nomenclature previously described). The corresponding metadata are provided in two other .csv files named 'Sugar_Concentration_Test_ALL_metadata.csv' and 'Sugar_Concentration_Test_Fast_ALL_metadata.csv'
+
 ## Materials and Methods
 For the experiment, four different sugar solutions (Sucrose, Fructose, Maltose, and Glucose) were mixed along with water in various concentrations, and the Raman spectral response of the mixture was measured using a custom Raman microspectometer platform known as [B-Raman](b-raman.com). 
 
@@ -54,22 +70,6 @@ Spectral acquisition was performed by Dr. Alvaro Fernandez Galiana.
 
 #### Notes on measurement times
 For the high SNR dataset, Plate 2 was measured right after sample preparation, whereas Plates 1 and 3 were measured 4 and 2 hours after preparation, respectively. All measurements for the low SNR dataset were performed 24 hours after sample preparation.
-
-## Data Structure
-The data is separated into two folders 'Sugar_Concentration_Test' and 'Sugar_Concentration_Test_Fast' for the high and low integrations times, respectively. Each measurement is in an individual .csv file with five columns:
-* Pixel: Corresponding to the pixel in the
-* wl: Wavelength, converted from the pixel with the calibration made in the spectrometer.
-* cm-1: Wavenumber, converted from the wavelength and the excitation (785m).
-* Intensity: Intensity of the Raman scattering signal
-* Metadata: Contains metadata about the measurement, including time, excitation power, etc.
-
-The information about the well plate and repeat and round are provided in the name of the file, which is structured as: 'Sugar_Concentration_Test{_Fast}_1_{WellCode}_{Plate#}_RD{Round#}_M1_R{Repetition#}' (e.g., Sugar_Concentration_Test_1_D3_2_RD2_M1_R3 corresponds to the third repetition measurement of the second round of the measurement of the D3 well of the second plate).
-
-Note that no pre-processing has been performed such that the user can decide what is best for the analysis. 
-
-An example Python notebook is provided to extract the information from each file.
-
-Finally, two .csv files containing all the extracted information are provided 'Sugar_Concentration_Test_ALL_spectra.csv' and 'Sugar_Concentration_Test_Fast_ALL_spectra.csv'. In these files, the wavenumber is provided in the first column ('Wavenumber [cm-1]'), and the spectra for each measurement are provided in the column with the name corresponding to the filename (following the nomenclature previously described). The corresponding metadata are provided in two other .csv files named 'Sugar_Concentration_Test_ALL_metadata.csv' and 'Sugar_Concentration_Test_Fast_ALL_metadata.csv'
 
 ## Contact
 For any questions regarding the dataset or its use, please reach out to: 
