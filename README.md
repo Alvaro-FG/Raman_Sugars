@@ -20,7 +20,7 @@ All the solutions were mixed and vortexed in standard 50 mL centrifuge tubes unt
 The different sugar mixtures were prepared in standard 96-well plates. In particular, a full factorial experiment was prepared following the following volumes:
 * 4 volume levels for each sugar: 0 ul, 30 ul, 75 ul, and 120 ul
 * 4 total sugars: Sucrose, Fructose, Maltose, and Glucose
-* 375 ul of total volume, filled with ultrapure distilled water
+* 375 ul of total volume, filled with [Invitrogen™ -- UltraPure™ DNase/RNase-Free Distilled Water](https://www.thermofisher.com/order/catalog/product/10977049?SID=srch-srp-10977049)
 * 5 extra wells of "pure" solutions (i.e., 375 ul of water, Sucrose, Fructose, Maltose, and Glucose, respectively)
 
 In total, this resulted in a total of 245 wells, which were distributed in three standard 96-well plates. The exact distribution of each well can be found in the 'Sugar_Concentration' files, were each well is identified as {RowLetter}{ColumnNumber}_{PlateNumber} (e.g., D3_2 corresponds to the D3 well of the second well plate).
