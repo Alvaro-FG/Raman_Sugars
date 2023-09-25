@@ -19,7 +19,7 @@ Finally, the raw data is separated into two folders 'Sugar_Concentration_Test' a
 
 Note that no pre-processing has been performed such that the user can decide what is best for the analysis. 
 
-An [example Python notebook](https://colab.research.google.com/drive/1u5U2aYW_5c2b5Tp3Jt_t7rXN9s5IiT9A?usp=sharing) is provided to extract the information from each file.
+An [example Python notebook](https://colab.research.google.com/drive/1u5U2aYW_5c2b5Tp3Jt_t7rXN9s5IiT9A?usp=sharing) is provided to extract the information from each file. The same information can be found in the file *Example_Readout_Raman_Sugars.py*
 
 ## Experimental Methods
 For the experiment, four different sugar solutions (Sucrose, Fructose, Maltose, and Glucose) were mixed along with water in various concentrations, and the Raman spectral response of the mixture was measured using a custom Raman microspectometer platform known as [B-Raman](b-raman.com). 
