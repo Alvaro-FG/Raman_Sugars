@@ -75,5 +75,5 @@ For the high SNR dataset, Plate 2 was measured right after sample preparation, w
 ## Contact
 For any questions regarding the dataset or its use, please reach out to: 
 
-* Alvaro Fernandez Galiana (alvaro.fernandezgaliana@gmail.com)
+* Alvaro Fernandez Galiana (afernandezgaliana@schmidtsciencefellows.org)
 
